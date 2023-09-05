@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.heading {
+    color: black;
+    font-size: xx-large;
+    font-weight: 700;
+}
+
+.upper {
+    display: flex;
+}
+
+.rating {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+
+.container {
+    border-radius: 20px;
+    position: absolute;
+    padding: 40px;
+    background-color: #ddddff;
+}
+
+#search {
+    margin-left: 85px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 400px;
+}
+
+.search-container {
+    position: relative;
+    display: inline-block;
+}
+
+button[type="submit"] {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+#h3-review {
+    font-size: large;
+    font-weight: bold;
+}
+
+.fa {
+    font-size: 25px;
+}
+
+.checked {
+    color: #ffa500;
+}
+
+/* Three column layout */
+.side {
+    display: flex;
+    float: left;
+    width: 15%;
+    margin-top: 10px;
+    /* margin-left: 3px; */
+}
+
+.middle {
+    margin-top: 10px;
+    float: left;
+    width: 70%;
+}
+
+/* Place text to the right */
+.right {
+    text-align: right;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* The bar container */
+.bar-container {
+    border-radius: 20px;
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    color: white;
+}
+
+.bar-5 {
+    border-radius: 20px;
+    width: 80%;
+    height: 18px;
+    background-color: orange;
+}
+
+.bar-4 {
+    border-radius: 20px;
+    width: 30%;
+    height: 18px;
+    background-color: orange;
+}
+
+.bar-3 {
+    border-radius: 20px;
+    width: 0%;
+    height: 18px;
+    background-color: orange;
+}
+
+.bar-2 {
+    border-radius: 20px;
+    width: 0%;
+    height: 18px;
+    background-color: orange;
+}
+
+.bar-1 {
+    border-radius: 20px;
+    width: 0%;
+    height: 18px;
+    background-color: orange;
+}
+
+.review {
+    margin-top: 20px;
+    border-radius: 30px;
+    background-color: #001d62;
+    padding: 10px;
+    color: #ffffff;
+}
