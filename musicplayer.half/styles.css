@@ -1,0 +1,56 @@
+.prebtn,
+.threedot {
+    display: inline-flex;
+    background-color: #111827;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.prebtn i,
+.threedot i {
+    color: #ffffff;
+    font-size: 20px;
+
+}
+
+.upper {
+    background-color: #111827;
+    align-items: center;
+    justify-content: center;
+}
+
+.up-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-box {
+    padding: 20px;
+}
+
+img {
+    padding: 50px;
+    height: 300px;
+    width: 300px;
+}
+
+h2 {
+    color: aliceblue;
+    font-size: large;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 0px;
+}
+
+h3 {
+
+    color: aliceblue;
+    font-size: large;
+    text-align: center;
+}
